@@ -1,0 +1,18 @@
+[package]
+name = "google-drive-fs"
+version = "0.1.0"
+authors = ["josephalfredo-okta <joseph.alfredo@okta.com>"]
+edition = "2018"
+
+[dependencies]
+bytes = "0.4.11"
+futures = "0.1.25"
+futures-cpupool = "0.1.8"
+hyper= "0.12"
+hyper-tls = "0.3.2"
+json = "0.11.13"
+reqwest = "0.9.11"
+tokio-core = "0.1.17"
+tokio-tls = "0.2.1"
+tokio-io = "0.1.10"
+tokio-timer-patched = "0.1.3"
